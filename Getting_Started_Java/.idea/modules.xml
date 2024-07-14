@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/J_Wrapper_Class.iml" filepath="$PROJECT_DIR$/J_Wrapper_Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Getting_Started_Java.iml" filepath="$PROJECT_DIR$/Getting_Started_Java.iml" />
     </modules>
   </component>
 </project>
