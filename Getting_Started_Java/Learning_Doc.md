@@ -1,3 +1,12 @@
+## Input & Output in Java
+There are two ways by which we can take Java input from the user or from a file
+
+* BufferedReader Class
+* Scanner Class
+
+
+
+
 ## Wrapper Classes in Java
 ### Boxing
 Boxing is the process of converting a primitive type 
@@ -48,4 +57,10 @@ int num = boxedNum; // Autounboxing happens automatically
 | Autoboxing     | Automatic Boxing                              |
 | Autounboxing   | Automatic Unboxing                            |
 
+
+### Real-World Analogy
+* Boxing: Imagine you have a toy (primitive) and you put it in a box (wrapper) to store it safely.
+* Unboxing: When you need the toy again, you take it out of the box.
+* Autoboxing: You put the toy in the box automatically when storing it.
+* Autounboxing: You take the toy out of the box automatically when you need it.
 
