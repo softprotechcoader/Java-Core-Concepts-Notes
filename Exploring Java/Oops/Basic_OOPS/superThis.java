@@ -1,3 +1,4 @@
+
 class A{
     public A(){
         super(); // calls the constructor of object class

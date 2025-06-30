@@ -1,4 +1,5 @@
 
+
 class staticBlock {
     public static void main(String[] args) throws ClassNotFoundException {
         // Mobile mobile1 = new Mobile();
