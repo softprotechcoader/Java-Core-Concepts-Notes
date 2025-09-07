@@ -1,3 +1,4 @@
+
  class a1{
         void display() {
             System.out.println("Display method in class A");

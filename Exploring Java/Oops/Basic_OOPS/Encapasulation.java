@@ -1,3 +1,4 @@
+
  // Encapsulation in Java
 // Encapsulation is a fundamental concept in object-oriented programming that restricts direct access to an object's data and methods.
 // It allows the internal representation of an object to be hidden from the outside, exposing only what is necessary through public methods.

@@ -1,3 +1,4 @@
+
 class A{
     public A(){
         super(); // calls the constructor of object class
@@ -41,8 +42,13 @@ class C extends B{
 }
 public class superThis {
     public static void main(String[] args) {
+<<<<<<< HEAD:Exploring Java/Oops/superThis.java
        // C obj1 = new C(6); // This will call the constructor of C, which calls B's constructor, which calls A's constructor
         
+=======
+        C obj1 = new C(6); // This will call the constructor of C, which calls B's constructor, which calls A's constructor
+        System.out.print(obj1);
+>>>>>>> a0748942043357cd75ff9290b5946565b35da25e:Exploring Java/Oops/Basic_OOPS/superThis.java
 
     }
 }

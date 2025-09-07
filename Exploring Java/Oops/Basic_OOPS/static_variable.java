@@ -1,3 +1,4 @@
+
 class Mobile{
     // These variables are instance variables
     String brand;
