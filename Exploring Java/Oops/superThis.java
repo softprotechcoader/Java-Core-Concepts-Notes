@@ -41,7 +41,7 @@ class C extends B{
 }
 public class superThis {
     public static void main(String[] args) {
-        C obj1 = new C(6); // This will call the constructor of C, which calls B's constructor, which calls A's constructor
+       // C obj1 = new C(6); // This will call the constructor of C, which calls B's constructor, which calls A's constructor
         
 
     }
