@@ -17,7 +17,7 @@
         // Typecasting 
         System.out.println("Typecasting in Java");
         double d = 10.5;
-        int i = (int) d; // Explicit typecasting from double to int
+       // int i = (int) d; // Explicit typecasting from double to int
         System.out.println("Double value: " + d);
 
         // Implicit typecasting
