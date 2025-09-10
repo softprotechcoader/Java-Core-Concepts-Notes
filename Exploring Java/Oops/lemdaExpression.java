@@ -1,5 +1,7 @@
+@FunctionalInterface   // lemdat expression only works with functional interface;
 interface lEE {
     void show(int n);
+ 
     
 }
 // class lE implements lEE {
@@ -23,8 +25,8 @@ public class lemdaExpression {
     //     gm.show();
     // }
       lEE gm = (int n)-> System.out.println("In Anonymous Movie show ");
-            
+             gm.show(7);
+
         
-        gm.show(7);
     }
 }
