@@ -17,7 +17,7 @@ public class Collection_API_T_1 {
 
     System.out.println(num);   // we can directly print the Collection as of array no need to iterate and print.
 // we can also use enhanced for loop to iterate. as here we don't have index
-        for(int i : num)
+        for(Object i : num)
         System.out.print(i+"\n");
     }  */// in collection we don't have index property to deal with index propery we have list so instead of collection we can use list.
     
@@ -29,7 +29,7 @@ List<Integer> num = new ArrayList<Integer>(); { // here, Collection is the inter
 
     System.out.println(num);   // we can directly print the Collection as of array no need to iterate and print.
 // we can also use enhanced for loop to iterate. as here we don't have index
-        // for(int i : num)
+        // for(Object i : num)
         // System.out.print(i+"\n");
         System.out.println(num.size());
         System.out.println(num.indexOf(7));
