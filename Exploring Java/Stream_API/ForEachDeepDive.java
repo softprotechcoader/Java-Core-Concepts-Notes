@@ -9,12 +9,8 @@ public class ForEachDeepDive {
 
         List<Integer>nums = Arrays.asList(2,4,5,7,9,6); //by using asList we can directly initilize the list value;
         
-        Consumer<Integer> consumer = new Consumer<Integer>() {
-            public void accept(Integer n){
-                System.out.println(n);
-            }
-        };
-
+        Consumer<Integer> consumer = n -> System.out.println(n);
+            
         nums.forEach(consumer); //here we have to pass Object of consumer 
 
         // we have various methods for printing list's using loops but ...
