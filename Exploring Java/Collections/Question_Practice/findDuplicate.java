@@ -17,16 +17,16 @@ public class findDuplicate {
             }
         } */
             // Method 2 : using sets
-/*         Set<Integer> seen = new HashSet<>();
+        Set<Integer> seen = new HashSet<>();
         List<Integer> dups = new ArrayList<>();
         for (Integer x : num) {
             if (!seen.add(x))
                 dups.add(x);
         }
         System.out.println(dups);
-        System.out.println(seen); */
+        System.out.println(seen);
 
-        
+
 
     }
 }
